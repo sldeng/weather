@@ -44,11 +44,7 @@ async function init() {
     const { word, imgurl } = oneData.newslist[0];
 
     // 计算日期
-    const lovingDays = dayjs(dayjs().tz('Asia/Shanghai')).diff(
-      startDay,
-      'days'
-    );
-
+    const lovingDays = startDay
     // 用邮件模版生成字符串
     const htmlStr = emailHtml(weatherData, lifeData, word, imgurl, lovingDays);
 
