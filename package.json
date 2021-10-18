@@ -10,6 +10,7 @@
   "dependencies": {
     "dayjs": "1.10.7",
     "node-fetch": "2.6.1",
-    "nodemailer": "6.6.3"
+    "nodemailer": "6.6.3",
+    "time-format-js": "^1.0.2"
   }
 }
